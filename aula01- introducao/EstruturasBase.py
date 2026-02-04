@@ -47,3 +47,16 @@ numeros = [10, 20, 30]
 
 print(numeros[0])  # 10
 numeros.append(40)
+
+
+a= input("coloca qualquer coisa: ")
+print("o tipo permitido desse valor é", type(a))
+print("tem empacos", a.isspace())
+print("é um numero", a.isnumeric())
+print("é alfabeto",a.isalpha())
+
+# strip() tira espacoco frente e tras
+# lstrip() tira espacoco esquerda
+# rstrip() tira espacoco direita
+nome = input("coloca o nome:").strip()
+print(f"{nome}")
